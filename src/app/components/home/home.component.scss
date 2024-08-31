@@ -26,6 +26,13 @@ main{
     }
 }
 
+.cta-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 .benefit-section{
     display: flex;
     flex-direction: column;
@@ -52,7 +59,7 @@ main{
         font-weight: 300;        
 
         b{
-            background: -webkit-linear-gradient(180deg,$light-primary-color, $primary-color);
+            background: -webkit-linear-gradient(180deg,$light-primary-color, $secondary-color);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             font-style: normal;
